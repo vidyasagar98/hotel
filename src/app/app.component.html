@@ -1,0 +1,95 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<mat-toolbar color="primary" style="height: 120px;border-radius: 2px;color:black;background-color:#d3d3d361;">
+  Indian Recipes <span style="float:right"><button type="button" class="btn btn-primary">Login</button></span>
+
+</mat-toolbar>
+
+ <nav style="float:left; margin-top: 24px;">
+   <div class="container-fluid">
+      <div class="btn-group-vertical">
+          <button type="button" class="btn btn-primary">Recipe Types</button>
+          <button type="button" class="btn btn-primary" style="color:black;    background-color: whitesmoke;" routerLink="/breakfast">Breakfast Recipes</button>
+          <button type="button" class="btn btn-primary" style="color:black;    background-color: whitesmoke;" routerLink="/snacks">Snacks and Sweets</button>
+          <button type="button" class="btn btn-primary" style="color:black;    background-color: whitesmoke;" routerLink="/rice">Rice varities</button>
+          <button type="button" class="btn btn-primary" style="color:black;    background-color: whitesmoke;" routerLink="/diabetic">Daibetic Recipes</button>
+        </div>
+   </div>
+</nav>
+<!-- <footer>
+    <mat-toolbar color="primary" style="border-radius: 8px;color:black;background-color:#d3d3d361;margin-left: 10px;width: 1224px;">
+        <b>Indian Recipes</b>
+      </mat-toolbar>
+      
+</footer> -->
+
+<!--<div class="container-fluid" style="width: 968px; margin-top: 24px;">
+  <div class="row">
+      <div class="col-xs-6 col-sm-4 col-lg-3" *ngFor="let items of datajson">
+          <div class="{{items.class}}" id="maindiv">
+        <mat-card (click)="opendilog(items)">
+        <img mat-card-image [src]="items.image" alt="Photo of a Shiba Inu">
+        
+        <mat-card-header>
+            <mat-card-title>{{items.modelName}}</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+            <p>
+              Manufacture:{{items.manufacturer}} <br/>
+              Storage:{{items.storage}}<br/>
+              Camera:{{items.camera}}<br/>
+              RS:{{items.price}}
+              </p>
+              </mat-card-content>
+        </mat-card>
+      </div>
+        </div> -->
+        <!-- <div class="col-xs-6 col-sm-4 col-lg-3">
+        <mat-card >
+            
+        <img mat-card-image src="" alt="Photo of a Shiba Inu">
+        <mat-card-header>
+            <mat-card-title>Sony</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+            <p>
+              Rs:5000 <br/>
+              Manufacture:Nokia
+              </p>
+              </mat-card-content>
+        </mat-card>
+        </div>
+        <div class="col-xs-6 col-sm-4 col-lg-3">
+            <mat-card >
+                
+            <img mat-card-image src="" alt="Photo of a Shiba Inu">
+            <mat-card-header>
+                <mat-card-title>Nokia</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+                <p>
+                  Rs:5000 <br/>
+                  Manufacture:Nokia
+                  </p>
+                  </mat-card-content>
+            </mat-card>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-lg-3">
+                <mat-card >
+                    
+                <img mat-card-image src="" alt="Photo of a Shiba Inu">
+                <mat-card-header>
+                    <mat-card-title>Iphone 6</mat-card-title>
+                </mat-card-header>
+                <mat-card-content>
+                    <p>
+                      Rs:5000 <br/>
+                      Manufacture:Nokia
+                      </p>
+                      </mat-card-content>
+                </mat-card>
+                </div> -->
+    <!-- </div>
+</div> -->
+
+<router-outlet></router-outlet>
